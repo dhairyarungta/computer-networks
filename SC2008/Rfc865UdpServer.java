@@ -20,7 +20,7 @@ public class Rfc865UdpServer{
             while(true){
                 //Listen to UDP request from client 
                 byte[] buffer = new byte [512];
-                byte[] buffer2 = new byte [512];
+
                 DatagramPacket request = new DatagramPacket(buffer,buffer.length);
                 System.out.println("waiting for reuqest");
 

@@ -19,7 +19,7 @@ public class Rfc865UdpClient2{
 
         }catch(Exception e){
             e.printStackTrace();        
-            
+            System.exit(-1);
         }
 
         try{
@@ -48,9 +48,10 @@ public class Rfc865UdpClient2{
 
         catch(IOException e){
             e.printStackTrace();
+            // System.out.println("here");
         }
-        // finally {
-        //     socket.close();
-        // }
+        finally {
+            socket.close();
+        }
     }
 }
