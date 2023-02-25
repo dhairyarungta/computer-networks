@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.net.*;
 
-public class Rfc865UdpCllient
+public class Rfc865UdpClient
 {
     /*
     Name: Harvey Specter
